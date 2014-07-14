@@ -1,0 +1,77 @@
+html, body {
+	color:#EEE;
+	background-color: #000;	
+	}
+	
+#wrap {
+	width: 900px;
+	margin: 15px auto 15px auto;
+	border: 1px solid #333;
+	background: #000 url(img/bg_2452.jpg) no-repeat center top;
+/*	-moz-border-radius:10px;
+	-webkit-border-radius:10px;*/
+	}
+
+#head {
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 15px;
+	}
+#head h1 {
+	font: 4.5em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin-right: 10px;
+	line-height:90%;
+	text-align:right;
+	}	
+
+#menu {
+	width:190px;
+	float:left;
+	margin:0 15px 0 10px;	
+	background: url(img/bg_trans_block.png) repeat;
+	}
+#menu dl { margin: 0 0 16px 0;	}
+#menu dl dt { font: 1.5em "Trebuchet MS", Verdana, Geneva, sans-serif; margin: 0 0 8px 0; padding: 8px 0 0 8px; }
+#menu dl dd a {
+	font: 0.75em Verdana, Geneva, sans-serif;
+	color: #F9EFCA;
+	display:block;
+	margin: 3px 0;
+	padding: 2px 2px 2px 8px;
+}
+#menu dl dd a:hover,#menu dl dd a.new:hover { color: #FFF; background-color:#006; }
+#menu dl dd a:visited {	color: #CCC; }
+#menu dl dd a.new { background: url(img/star.png) no-repeat 98%; }
+
+#main {
+	width:680px;
+	float:left;
+	}
+
+#main a.radar {
+	display:block;
+	margin: 0 12px 12px 0;
+	padding: 2px;
+	border: 1px solid #333;
+	/*background-color: #000000;*/
+	float:left;
+	line-height:0;
+	}
+
+#main .radar:hover {
+	border: 1px solid #AAA;
+	}
+#main p {font: 0.75em Verdana, Geneva, sans-serif;}
+#sanborn h2 {font: 1.5em Verdana, Geneva, sans-serif;}
+#sanborn td{
+	padding: 10px;
+	
+}
+#foot { font: 0.7em Verdana, Geneva, sans-serif; text-align:center; margin: 10px; }
+#foot a { color:#FC9; }
+

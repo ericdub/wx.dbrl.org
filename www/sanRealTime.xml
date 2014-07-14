@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataroot>
+	<stationData>
+		<stationName>Columbia - Sanborn Field</stationName>
+		<locationCity>Columbia</locationCity>
+		<locationCounty>Boone</locationCounty>
+		<locationState>Missouri</locationState>
+		<latitude units="decimalDegrees" displayUnits="&#176;">38.942301</latitude>
+		<longitude units="decimalDegrees" displayUnits="&#176;">-92.320395</longitude>
+		<reportDate>July 14, 2014</reportDate>
+		<reportTime>4:15 pm</reportTime>
+		<centralTimeText>CDT</centralTimeText>
+		<sunriseTime>5:55 am</sunriseTime>
+		<sunsetTime>8:35 pm</sunsetTime>
+		<currentTemperatureF units="Fahrenheit" displayUnits="&#176;F">73.3</currentTemperatureF>
+		<currentTemperatureC units="Celsius" displayUnits="&#176;C">22.9</currentTemperatureC>
+		<windChillF units="Fahrenheit" displayUnits="&#176;F"></windChillF>
+		<windChillC units="Celsius" displayUnits="&#176;C"></windChillC>
+		<heatIndexF units="Fahrenheit" displayUnits="&#176;F"></heatIndexF>
+		<heatIndexC units="Celsius" displayUnits="&#176;C"></heatIndexC>
+		<dewPointF units="Fahrenheit" displayUnits="&#176;F">61.0</dewPointF>
+		<dewPointC units="Celsius" displayUnits="&#176;C">16.1</dewPointC>
+		<relativeHumidity units="Percent" displayUnits="%">65</relativeHumidity>
+		<windSpeedMPH units="Miles Per Hour" displayUnits="mph">7.7</windSpeedMPH>
+		<windSpeedMPS units="Meters Per Second" displayUnits="m\s">3.4</windSpeedMPS>
+		<peakWindSpeedMPH units="Miles Per Hour" displayUnits="mph">12.3</peakWindSpeedMPH>
+		<peakWindSpeedMPS units="Meters Per Second" displayUnits="m\s">5.5</peakWindSpeedMPS>
+		<windDirection>W</windDirection>
+		<barometricPressureIN units="Inches of Hg" displayUnits="in.">29.96</barometricPressureIN>
+		<barometricPressureMB units="Millibars" displayUnits="mb">1014.57</barometricPressureMB>
+		<barometricTrend>-1</barometricTrend>
+		<solarRadiationWM2 units="Watts per square meter" displayUnits="W/m&#178;">534.1</solarRadiationWM2>
+		<soil2TempF units="Fahrenheit" displayUnits="&#176;F">80.0</soil2TempF>
+		<soil2TempC units="Celsius" displayUnits="&#176;C">26.7</soil2TempC>
+		<soil4TempF units="Fahrenheit" displayUnits="&#176;F">79.2</soil4TempF>
+		<soil4TempC units="Celsius" displayUnits="&#176;C">26.2</soil4TempC>
+		<maximumTemperatureF units="Fahrenheit" displayUnits="&#176;F">82.8</maximumTemperatureF>
+		<maximumTemperatureC units="Celsius" displayUnits="&#176;C">28.2</maximumTemperatureC>
+		<maximumTemperatureTime>11:57 am</maximumTemperatureTime>
+		<minimumTemperatureF units="Fahrenheit" displayUnits="&#176;F">69.8</minimumTemperatureF>
+		<minimumTemperatureC units="Celsius" displayUnits="&#176;C">21.0</minimumTemperatureC>
+		<minimumTemperatureTime>6:15 am</minimumTemperatureTime>
+		<accumulatedPrecipitationIN units="Inches" displayUnits="in.">0.05</accumulatedPrecipitationIN>
+		<accumulatedPrecipitationMM units="Millimeters" displayUnits="mm">1.27</accumulatedPrecipitationMM>
+		<peakWindMPH units="Miles Per Hour" displayUnits="mph">20.1</peakWindMPH>
+		<peakWindMPS units="Meters Per Second" displayUnits="m\s">9.0</peakWindMPS>
+		<peakWindTime>12:46 pm</peakWindTime>
+		<prevMaximumTemperatureF units="Fahrenheit" displayUnits="&#176;F">86.0</prevMaximumTemperatureF>
+		<prevMaximumTemperatureC units="Celsius" displayUnits="&#176;C">30.0</prevMaximumTemperatureC>
+		<prevMaximumTemperatureTime>2:47 pm</prevMaximumTemperatureTime>
+		<prevMinimumTemperatureF units="Fahrenheit" displayUnits="&#176;F">71.9</prevMinimumTemperatureF>
+		<prevMinimumTemperatureC units="Celsius" displayUnits="&#176;C">22.2</prevMinimumTemperatureC>
+		<prevMinimumTemperatureTime>11:58 pm</prevMinimumTemperatureTime>
+		<prevAccumulatedPrecipitationIN units="Inches" displayUnits="in.">0.34</prevAccumulatedPrecipitationIN>
+		<prevAccumulatedPrecipitationMM units="Millimeters" displayUnits="mm">8.64</prevAccumulatedPrecipitationMM>
+		<prevEvapotranspirationEstimateIN units="Inches" displayUnits="in.">0.13</prevEvapotranspirationEstimateIN>
+		<prevEvapotranspirationEstimateMM units="Millimeters" displayUnits="mm">3.40</prevEvapotranspirationEstimateMM>
+		<prevPeakWindMPH units="Miles Per Hour" displayUnits="mph">14.7</prevPeakWindMPH>
+		<prevPeakWindMPS units="Meters Per Second" displayUnits="m\s">6.6</prevPeakWindMPS>
+		<prevPeakWindTime>10:17 am</prevPeakWindTime>
+		<prevMaximumCSTTemperatureF units="Fahrenheit" displayUnits="&#176;F">86.1</prevMaximumCSTTemperatureF>
+		<prevMinimumCSTTemperatureF units="Fahrenheit" displayUnits="&#176;F">71.3</prevMinimumCSTTemperatureF>
+		<prevMidnightCSTTemperatureF units="Fahrenheit" displayUnits="&#176;F">71.3</prevMidnightCSTTemperatureF>
+		<prevMaximumCSTSoil2TempF units="Fahrenheit" displayUnits="&#176;F">91.2</prevMaximumCSTSoil2TempF>
+		<prevMinimumCSTSoil2TempF units="Fahrenheit" displayUnits="&#176;F">75.5</prevMinimumCSTSoil2TempF>
+		<prevMaximumCSTSoil4TempF units="Fahrenheit" displayUnits="&#176;F">85.5</prevMaximumCSTSoil4TempF>
+		<prevMinimumCSTSoil4TempF units="Fahrenheit" displayUnits="&#176;F">76.6</prevMinimumCSTSoil4TempF>
+	</stationData>
+</dataroot>

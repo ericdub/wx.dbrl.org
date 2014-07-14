@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>DBRL Weather</title>
+<link href="global.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="stylesheet" href="/litebox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/litebox/js/prototype.lite.js"></script>
+<script type="text/javascript" src="/litebox/js/moo.fx.js"></script>
+<script type="text/javascript" src="/litebox/js/litebox-1.0.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<style type="text/css">
+<?php
+	echo '#wrap { background: #000 url(img/bg/img' . rand(6,12) . '.jpg) no-repeat center top; }';
+?>
+</style>
+<script type="text/javascript">
+	var $j = jQuery.noConflict();
+    $j(function(){
+	    /*$j("#wrap").height($j("#wrap").height());
+		$j("#head h1").hover(function() {
+			$j("#menu, #main, #foot").fadeOut("slow");
+		}, function() {
+			$j("#menu, #main, #foot").fadeIn("slow");
+		});*/
+    });
+    </script>
+</head>
+<body onload="initLightbox()">
+<div id="wrap">
+  <div id="head">
+    <h1>DBRL Weather</h1>
+  </div>
+  <div id="menu">
+    <dl>
+      <dt>Local Sites</dt>
+      <dd><a href="http://www.abc17news.com/weather.php" target="_blank">KMIZ Stormtrack</a></dd>
+      <dd><a href="http://www.krcg.com/weather/" target="_blank">KRCG Weather Lab</a></dd>
+      <dd><a href="http://www.komu.com/weather/" target="_blank">KOMU Doppler 8 First Alert</a></dd>
+      <dd><a href="http://aes.missouri.edu/sanborn/weather/sanreal.stm" target="_blank">MU Sanborn Field</a></dd>
+    </dl>
+    <dl>
+      <dt>Forecasts</dt>
+      <dd><a href="http://www.intellicast.com/Local/Weather.aspx?location=USMO0193" target="_blank">Intellicast</a></dd>
+      <dd><a href="http://www.crh.noaa.gov/ifps/MapClick.php?CityName=Columbia&amp;state=MO&amp;site=LSX" target="_blank">National Weather Service</a></dd>
+      <dd><a href="http://www.crh.noaa.gov/product.php?site=NWS&amp;issuedby=LSX&amp;product=AFD&amp;format=CI&amp;version=1&amp;glossary=1" target="_blank">NWS Forecast Discussion</a></dd>
+      <dd><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=65203" target="_blank">Weather Underground</a></dd>
+    </dl>
+    <dl>
+      <dt>Radar &amp; Loops</dt>
+      <dd><a href="http://www.krcg.com/weather/radar.aspx" target="_blank">KRCG Radar Loop</a></dd>
+      <dd><a href="http://www.wunderground.com/radar/radblast.asp?ID=LSX&region=b3&lat=38.92913818&lon=-92.36959076&label=Columbia%2c%20MO" target="_blank">STL NEXRAD</a></dd>
+     <dd><a href="http://forecast.io/#/f/38.9510,-92.3399" target="_blank">forecast.io</a></dd>
+      <dd><a href="http://www.intellicast.com/National/Radar/Summary.aspx?location=USMO0453" target="_blank">Intellicast Radar Summary</a></dd>
+      <dd><a href="http://www.intellicast.com/National/Radar/Current.aspx?location=USMO0453&animate=true" target="_blank">Intellicast Current Loop</a></dd>
+      <dd><a href="http://www.intellicast.com/National/Radar/OneKm.aspx?location=USMO0453&amp;animate=true" target="_blank">Intellicast Regional Loop</a></dd>
+		<dd><a href="http://radar.srh.noaa.gov/" target="_blank">NWS National Mosaic</a></dd>
+      <dd><a href="http://origin-radar.weather.gov/radar.php?rid=sgf&amp;product=N0R&amp;loop=yes" target="_blank">NWS SW MO Radar Loop</a></dd>
+      <dd><a href="http://origin-radar.weather.gov/Conus/index_loop.php" target="_blank">NWS National Radar Loop</a></dd>
+
+      <dd><a href="http://www.intellicast.com/National/Radar/Metro.aspx?animate=true&location=USMO0460" target="_blank">Kansas City Metro Loop</a></dd>
+      <dd><a href="http://www.intellicast.com/National/Radar/Metro.aspx?animate=true&location=USMO0787" target="_blank">St. Louis Metro Loop</a></dd>
+      <dd><a href="http://weatherspark.com/#!graphs;a=USA/MO_65203/Columbia" target="_blank" class="new">WeatherSpark</a></dd>
+      <dd><a href="http://hint.fm/wind/ "target="_blank" class="new">Wind Map</a></dd>
+		<dd><a href="http://www.wunderground.com/wundermap/" target="_blank">WU WonderMap</a></dd>
+    </dl>
+   <dl>
+      <dt>Hurricanes</dt>
+      <dd><a href="http://www.stormpulse.com/" target="_blank">Storm Pulse</a></dd>
+      <dd><a href="http://stormadvisory.org/map/atlantic" target="_blank">StormAdvisory</a></dd>
+      <dd><a href="http://www.nhc.noaa.gov/" target="_blank">NWS Hurricane Center</a></dd>
+      <dd><a href="http://www.msnbc.msn.com/id/26295161/" target="_blank">MSNBC Hurricane Tracker</a></dd>
+      <dd><a href="http://www.wunderground.com/wundermap/?lat=21.2&lon=-79.1&zoom=6&type=hyb&rad=0&wxsn=0&svr=0&cams=0&sat=0&riv=0&mm=0&hur=1&hur.wr=0&hur.cod=1&hur.fx=1&hur.obs=1&fire=0&ft=0&sl=0" target="_blank">Weather Underground</a></dd>
+      <dd><a href="http://hurricane.accuweather.com/hurricane/tracks.asp" target="_blank">AccuWeather</a></dd>
+      <dd><a href="http://tropicwx.com/" target="_blank">Jay's Hurricane Images</a></dd>
+    </dl>
+  </div>
+  <div id="main">
+
+    <a href="http://www.abc17news.com/dynamic-images/transient/image/cjc/19269616?maxw=640" rel="lightbox[wx]" class="radar" ><img src="http://www.abc17news.com/dynamic-images/transient/image/cjc/19269616?maxw=640" alt="Seven-day forecast graphic"  width="319" height="182" /></a>
+    <a href="http://www.abc17news.com/dynamic-images/transient/image/cjc/18979106?maxw=640" rel="lightbox[wx]" class="radar" ><img src="http://www.abc17news.com/dynamic-images/transient/image/cjc/18979106?maxw=640" alt="Current weather conditions graphic"  width="319" height="182" /></a>
+    <a href="http://www.abc17news.com/dynamic-images/transient/image/cjc/18990000?maxw=640" rel="lightbox[wx]" class="radar" ><img src="http://www.abc17news.com/dynamic-images/transient/image/cjc/18990000?maxw=640" alt="Daily almanac graphic"  width="319" height="182" /></a>
+     <a href="http://www.abc17news.com/dynamic-images/transient/image/cjc/18979194?maxw=640" rel="lightbox[wx]" class="radar" ><img src="http://www.abc17news.com/dynamic-images/transient/image/cjc/18979194?maxw=640" alt="weather radar iamge"  width="319" height="182" /></a>
+    
+<?php /* ?>    <a href="http://weatherimages.komu.com/KOMU_Radar_full.jpg" rel="lightbox[wx]" class="radar" ><img src="http://weatherimages.komu.com/KOMU_Radar_full.jpg" alt="KOMU Radar"  width="320" height="240" /></a> <?php */ ?>
+<div id="sanborn"><?php include('sanborn.php');  ?></div>    
+<div style="clear:both"></div>
+    <?php /*?><p>Cool pic:<br /><a href="http://flickr.com/photos/hwsdigital/2299629713/" title="Tornadic Supercell in Missouri"><img src="http://farm3.static.flickr.com/2169/2299629713_fb5af00df4_t_d.jpg" alt="Tornadic Supercell in Missouri" /></a></p><?php */?>
+
+    <p><img src="img/star.png" width="12" height="12" alt=" " /> recently added</p>
+
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  
+  <div id="foot">Graphics &copy; <a href="http://www.komu.com/">KOMU</a>, <a href="http://www.abc17.com/">KMIZ</a>, <a href="http://www.krcg.com/">KRCG</a></div>
+  <div class="clear"></div>
+</div>
+</body>
+</html>
