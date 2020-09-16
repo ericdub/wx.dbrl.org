@@ -11,7 +11,7 @@
     <title>DBRL Weather</title>
     
    
-    <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS   gg -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
     <!-- Optional theme -->
